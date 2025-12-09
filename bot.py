@@ -1,6 +1,5 @@
 import time
 import threading
-import imghdr  # ← Tambahan untuk elak ModuleNotFoundError
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, MessageHandler, Filters, CallbackContext, CallbackQueryHandler
 
@@ -53,3 +52,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
